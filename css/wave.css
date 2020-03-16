@@ -1,0 +1,133 @@
+
+
+/* Wave Ripple Effect */
+.building-contractors .video-block .sound{ position: absolute; width: 240px; height: 240px; padding: 0; border-radius: 200px; list-style: none; overflow: hidden; z-index: 2; left:50%; top:50%; transform:translate(-50%,-50%); }
+.building-contractors .video-block .sound li { background: #8c76a4; position: absolute; margin: auto; top: 0px; left: 0px; bottom: 0px; right: 0px; width: 0%; height: 0%; border-radius: 50%; }
+.building-contractors .video-block .sound li:nth-child(1) {
+  opacity: 0.2;
+  animation: zoom1 4s cubic-bezier(0.250, 0.100, 0.250, 1.000) infinite;
+}
+.building-contractors .video-block .sound li:nth-child(2) {
+  opacity: 0.3;
+  animation: zoom2 4s cubic-bezier(0.250, 0.100, 0.250, 1.000) infinite;
+  animation-delay: 0.3s;
+}
+.building-contractors .video-block .sound li:nth-child(3) {
+  opacity: 0.4;
+  animation: zoom3 4s cubic-bezier(0.250, 0.100, 0.250, 1.000) infinite;
+  animation-delay: 0.6s;
+}
+.building-contractors .video-block .sound li:nth-child(4) {
+  opacity: 0.5;
+  animation: zoom4 4s cubic-bezier(0.250, 0.100, 0.250, 1.000) infinite;
+  animation-delay: 0.9s;
+}
+
+/* Wave Ripple Effect */
+.innovative-designer-block .video-panel .sound{ position: absolute; width: 240px; height: 240px; padding: 0; border-radius: 200px; list-style: none; overflow: hidden; z-index: 2; left:50%; top:50%; transform:translate(-50%,-50%); }
+.innovative-designer-block .video-panel .sound li { background: #8c76a4; position: absolute; margin: auto; top: 0px; left: 0px; bottom: 0px; right: 0px; width: 0%; height: 0%; border-radius: 50%; }
+.innovative-designer-block .video-panel .sound li:nth-child(1) {
+  opacity: 0.2;
+  animation: zoom1 4s cubic-bezier(0.250, 0.100, 0.250, 1.000) infinite;
+}
+.innovative-designer-block .video-panel .sound li:nth-child(2) {
+  opacity: 0.3;
+  animation: zoom2 4s cubic-bezier(0.250, 0.100, 0.250, 1.000) infinite;
+  animation-delay: 0.3s;
+}
+.innovative-designer-block .video-panel .sound li:nth-child(3) {
+  opacity: 0.4;
+  animation: zoom3 4s cubic-bezier(0.250, 0.100, 0.250, 1.000) infinite;
+  animation-delay: 0.6s;
+}
+.innovative-designer-block .video-panel .sound li:nth-child(4) {
+  opacity: 0.5;
+  animation: zoom4 4s cubic-bezier(0.250, 0.100, 0.250, 1.000) infinite;
+  animation-delay: 0.9s;
+}
+
+@keyframes zoom1 {
+  0% {
+    width: 0%;
+    height: 0%;
+  }
+  35% {
+    width: 100%;
+    height: 100%;
+  }
+  50% {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@keyframes zoom2 {
+  0% {
+    width: 0%;
+    height: 0%;
+  }
+  35% {
+    width: 75%;
+    height: 75%;
+  }
+  50% {
+    opacity: 0;
+    width: 75%;
+    height: 75%;
+  }
+  100% {
+    opacity: 0;
+    width: 75%;
+    height: 75%;
+  }
+}
+
+@keyframes zoom3 {
+  0% {
+    width: 0%;
+    height: 0%;
+  }
+  35% {
+    width: 50%;
+    height: 50%;
+  }
+  50% {
+    opacity: 0;
+    width: 50%;
+    height: 50%;
+  }
+  100% {
+    opacity: 0;
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@keyframes zoom4 {
+  0% {
+    width: 0%;
+    height: 0%;
+  }
+  35% {
+    width: 25%;
+    height: 25%;
+  }
+  50% {
+    opacity: 0;
+    width: 25%;
+    height: 25%;
+  }
+  100% {
+    opacity: 0;
+    width: 25%;
+    height: 25%;
+  }
+}       
+
+
